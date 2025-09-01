@@ -1,15 +1,15 @@
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 Write-Host "Informações para configuração da conta Git" -ForegroundColor Cyan
 
-$nome = Read-Host "Digite seu nome "
-$email = (Read-Host "Digite seu e-mail ").ToLower()
+$nome = Read-Host "Cleberson Costa"
+$email = (Read-Host "cleberson-costa@outlook.com").ToLower()
 
 # Lista de pacotes a instalar via Winget
 $packages = @(
     @{ Id = "CoreyButler.NVMforWindows" },
     @{ Id = "Git.Git" },
     @{ Id = "Microsoft.VisualStudioCode" },
-    @{ Id = "Microsoft.VisualStudio.2022.Enterprise" },
+    @{ Id = "Microsoft.VisualStudio.2022.Community" },
     @{ Id = "CodecGuide.K-LiteCodecPack.Standard" },
     @{ Id = "3TSoftwareLabs.Studio3T" },
     @{ Id = "Microsoft.DotNet.SDK.8" },
