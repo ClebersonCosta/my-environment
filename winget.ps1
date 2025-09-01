@@ -1,8 +1,8 @@
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 Write-Host "Informações para configuração da conta Git" -ForegroundColor Cyan
 
-$nome = Read-Host "Cleberson Costa"
-$email = (Read-Host "cleberson-costa@outlook.com").ToLower()
+$nome = Read-Host "Digite o usuário: "
+$email = (Read-Host "Digite o e-mail: ").ToLower()
 
 # Lista de pacotes a instalar via Winget
 $packages = @(
